@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+        font-family: Arial, sans-serif;
+        background-color: #00ffff;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+       
+        margin: 0;
+    }
+
+
+    .subject {
+        display: flex;
+        width: 370px;
+        height: 100px;
+        margin: 3px;
+        border-radius: 10px;
+        background-color: #3498db;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 100px; /* Center text vertically */
+        transition: background-color 0.3s ease;
+    }
+
+    .subject:hover {
+        background-color: #E7C81B;
+    }
+    a{
+      text-decoration: none;
+    }
